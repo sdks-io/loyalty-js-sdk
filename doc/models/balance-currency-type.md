@@ -1,0 +1,28 @@
+
+# Balance Currency Type
+
+## Enumeration
+
+`BalanceCurrencyType`
+
+## Fields
+
+| Name |
+|  --- |
+| `Qv` |
+| `Point` |
+| `Stamp` |
+| `Airmiles` |
+| `Miles` |
+| `Cash` |
+| `StampCounter` |
+| `Nbs` |
+
+## Example
+
+```ts
+import { BalanceCurrencyType } from 'loyalty-sdk';
+
+const balanceCurrencyType = BalanceCurrencyType.Qv;
+```
+
