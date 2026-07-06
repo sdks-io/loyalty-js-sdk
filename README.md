@@ -10,29 +10,29 @@ Loyalty Account Management provides the end points needed in order to generate t
 Run the following command from your project directory to install the package from npm:
 
 ```bash
-npm install loyalty-sdk@0.0.5
+npm install loyalty-sdk@0.0.6
 ```
 
-For additional package details, see the [Npm page for the loyalty-sdk@0.0.5 npm](https://www.npmjs.com/package/loyalty-sdk/v/0.0.5).
+For additional package details, see the [Npm page for the loyalty-sdk@0.0.6 npm](https://www.npmjs.com/package/loyalty-sdk/v/0.0.6).
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
 | Parameter | Type | Description |
 |  --- | --- | --- |
-| environment | [`Environment`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/README.md#environments) | The API environment. <br> **Default: `Environment.Sit`** |
+| environment | [`Environment`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/README.md#environments) | The API environment. <br> **Default: `Environment.Sit`** |
 | timeout | `number` | Timeout for API calls.<br>*Default*: `30000` |
-| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/http-client-options.md) | Stable configurable http client options. |
+| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/http-client-options.md) | Stable configurable http client options. |
 | unstableHttpClientOptions | `any` | Unstable configurable http client options. |
-| logging | [`PartialLoggingOptions`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/partial-logging-options.md) | Logging Configuration to enable logging |
-| publicBearerTokenCredentials | [`PublicBearerTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/oauth-2-bearer-token.md) | The credential object for publicBearerToken |
-| publicBasicTokenCredentials | [`PublicBasicTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/custom-header-signature.md) | The credential object for publicBasicToken |
-| privateBasicTokenCredentials | [`PrivateBasicTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/custom-header-signature-1.md) | The credential object for privateBasicToken |
-| clientAuthorizationTokenCredentials | [`ClientAuthorizationTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for clientAuthorizationToken |
-| customerHeaderCredentials | [`CustomerHeaderCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/custom-header-signature-2.md) | The credential object for customerHeader |
+| logging | [`PartialLoggingOptions`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/partial-logging-options.md) | Logging Configuration to enable logging |
+| publicBearerTokenCredentials | [`PublicBearerTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/oauth-2-bearer-token.md) | The credential object for publicBearerToken |
+| publicBasicTokenCredentials | [`PublicBasicTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/custom-header-signature.md) | The credential object for publicBasicToken |
+| privateBasicTokenCredentials | [`PrivateBasicTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/custom-header-signature-1.md) | The credential object for privateBasicToken |
+| clientAuthorizationTokenCredentials | [`ClientAuthorizationTokenCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/oauth-2-client-credentials-grant.md) | The credential object for clientAuthorizationToken |
+| customerHeaderCredentials | [`CustomerHeaderCredentials`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/custom-header-signature-2.md) | The credential object for customerHeader |
 
 The API client can be initialized as follows:
 
@@ -89,7 +89,7 @@ const fileContent = fs.readFileSync(absolutePath, 'utf-8');
 const client = Client.fromJsonConfig(fileContent);
 ```
 
-See the [Configuration-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/configuration-based-client-initialization.md) section for details.
+See the [Configuration-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/configuration-based-client-initialization.md) section for details.
 
 ### Environment-Based Client Initialization
 
@@ -111,7 +111,7 @@ if (fs.existsSync(absolutePath)) {
 const client = Client.fromEnvironment(process.env);
 ```
 
-See the [Environment-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/environment-based-client-initialization.md) section for details.
+See the [Environment-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/environment-based-client-initialization.md) section for details.
 
 ## Environments
 
@@ -129,41 +129,41 @@ The SDK can be configured to use a different environment for making API calls. A
 
 This API uses the following authentication schemes.
 
-* [`PublicBearerToken (OAuth 2 Bearer token)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/oauth-2-bearer-token.md)
-* [`PublicBasicToken (Custom Header Signature)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/custom-header-signature.md)
-* [`PrivateBasicToken (Custom Header Signature)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/custom-header-signature-1.md)
-* [`client-authorization-token (OAuth 2 Client Credentials Grant)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/oauth-2-client-credentials-grant.md)
-* [`customerHeader (Custom Header Signature)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/auth/custom-header-signature-2.md)
+* [`PublicBearerToken (OAuth 2 Bearer token)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/oauth-2-bearer-token.md)
+* [`PublicBasicToken (Custom Header Signature)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/custom-header-signature.md)
+* [`PrivateBasicToken (Custom Header Signature)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/custom-header-signature-1.md)
+* [`client-authorization-token (OAuth 2 Client Credentials Grant)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/oauth-2-client-credentials-grant.md)
+* [`customerHeader (Custom Header Signature)`](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/auth/custom-header-signature-2.md)
 
 ## List of APIs
 
-* [Profile Management](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/controllers/profile-management.md)
-* [Authorization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/controllers/authorization.md)
-* [Offer](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/controllers/offer.md)
-* [Balances](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/controllers/balances.md)
-* [Redemption](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/controllers/redemption.md)
-* [Transaction](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/controllers/transaction.md)
+* [Profile Management](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/controllers/profile-management.md)
+* [Authorization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/controllers/authorization.md)
+* [Offer](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/controllers/offer.md)
+* [Balances](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/controllers/balances.md)
+* [Redemption](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/controllers/redemption.md)
+* [Transaction](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/controllers/transaction.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [HttpClientOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/http-client-options.md)
-* [RetryConfiguration](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/retry-configuration.md)
-* [ProxySettings](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/proxy-settings.md)
-* [Configuration-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/configuration-based-client-initialization.md)
-* [Environment-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/environment-based-client-initialization.md)
-* [PartialLoggingOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/partial-logging-options.md)
-* [PartialRequestLoggingOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/partial-request-logging-options.md)
-* [PartialResponseLoggingOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/partial-response-logging-options.md)
-* [LoggerInterface](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/logger-interface.md)
+* [HttpClientOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/http-client-options.md)
+* [RetryConfiguration](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/retry-configuration.md)
+* [ProxySettings](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/proxy-settings.md)
+* [Configuration-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/configuration-based-client-initialization.md)
+* [Environment-Based Client Initialization](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/environment-based-client-initialization.md)
+* [PartialLoggingOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/partial-logging-options.md)
+* [PartialRequestLoggingOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/partial-request-logging-options.md)
+* [PartialResponseLoggingOptions](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/partial-response-logging-options.md)
+* [LoggerInterface](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/logger-interface.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/http-request.md)
+* [HttpRequest](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/api-response.md)
-* [ApiError](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.5/doc/api-error.md)
+* [ApiResponse](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/api-response.md)
+* [ApiError](https://www.github.com/sdks-io/loyalty-js-sdk/tree/0.0.6/doc/api-error.md)
 
