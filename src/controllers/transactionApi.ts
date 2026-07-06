@@ -49,7 +49,7 @@ export class TransactionApi extends BaseApi {
    * @param consumerUuid             This is the consumer's or customer's unique SSO
    *                                                                 UUID.
    * @param userAuthorizationToken   This is the consumer's SSO access, which you
-   *                                                                 retrieved from */auth/exchangeAccessCode* endpoint
+   *                                                                 retrieved from /auth/exchangeAccessCode endpoint
    *                                                                 prefixed by Bearer.
    * @param application              This is the calling application.
    * @param languageCode             This is a concatenation of language in lower case
