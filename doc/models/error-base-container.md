@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { ErrorBaseContainer } from 'loyalty-sdk';
+import { ErrorBaseContainer } from 'shell-loyalty-sdk';
 
 const errorBaseContainer: ErrorBaseContainer = {
   user: {

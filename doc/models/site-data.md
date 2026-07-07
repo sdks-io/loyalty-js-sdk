@@ -22,7 +22,7 @@
 ## Example
 
 ```ts
-import { SiteData } from 'loyalty-sdk';
+import { SiteData } from 'shell-loyalty-sdk';
 
 const siteData: SiteData = {
   countryCode: 'GB',

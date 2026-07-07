@@ -22,7 +22,7 @@
 ## Example
 
 ```ts
-import { EvChargingDetails } from 'loyalty-sdk';
+import { EvChargingDetails } from 'shell-loyalty-sdk';
 
 const evChargingDetails: EvChargingDetails = {
   chargePointSerialId: 'chargePointSerialId8',

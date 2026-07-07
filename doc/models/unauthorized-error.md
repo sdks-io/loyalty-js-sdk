@@ -16,7 +16,7 @@ The application is not authorised to use the requested grant type.
 ## Example
 
 ```ts
-import { UnauthorizedError } from 'loyalty-sdk';
+import { UnauthorizedError } from 'shell-loyalty-sdk';
 
 const unauthorizedError: UnauthorizedError = {
   fault: {

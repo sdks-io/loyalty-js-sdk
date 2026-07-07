@@ -19,7 +19,7 @@
 ## Example
 
 ```ts
-import { NotFoundErrorResponse } from 'loyalty-sdk';
+import { NotFoundErrorResponse } from 'shell-loyalty-sdk';
 
 const notFoundErrorResponse: NotFoundErrorResponse = {
   errorCode: 404,

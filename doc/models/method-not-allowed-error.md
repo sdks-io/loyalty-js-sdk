@@ -16,7 +16,7 @@ An error response.
 ## Example
 
 ```ts
-import { MethodNotAllowedError } from 'loyalty-sdk';
+import { MethodNotAllowedError } from 'shell-loyalty-sdk';
 
 const methodNotAllowedError: MethodNotAllowedError = {
   fault: {

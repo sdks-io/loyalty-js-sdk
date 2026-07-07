@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { RefreshTokenRequest } from 'loyalty-sdk';
+import { RefreshTokenRequest } from 'shell-loyalty-sdk';
 
 const refreshTokenRequest: RefreshTokenRequest = {
   refreshToken: 'refreshToken4',

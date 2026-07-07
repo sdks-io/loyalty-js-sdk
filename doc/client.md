@@ -21,7 +21,7 @@ The API client can be initialized as follows:
 ## Code-Based Client Initialization
 
 ```ts
-import { Client, Environment, LogLevel } from 'loyalty-sdk';
+import { Client, Environment, LogLevel } from 'shell-loyalty-sdk';
 
 const client = new Client({
   publicBearerTokenCredentials: {
@@ -59,7 +59,7 @@ const client = new Client({
 ```ts
 import * as path from 'path';
 import * as fs from 'fs';
-import { Client } from 'loyalty-sdk';
+import { Client } from 'shell-loyalty-sdk';
 
 // Provide absolute path for the configuration file
 const absolutePath = path.resolve('./config.json');
@@ -79,7 +79,7 @@ See the [Configuration-Based Client Initialization](../doc/configuration-based-c
 import * as dotenv from 'dotenv';
 import * as path from 'path';
 import * as fs from 'fs';
-import { Client } from 'loyalty-sdk';
+import { Client } from 'shell-loyalty-sdk';
 
 // Optional - Provide absolute path for the .env file
 const absolutePath = path.resolve('./.env');

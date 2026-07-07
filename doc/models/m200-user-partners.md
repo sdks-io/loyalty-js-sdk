@@ -21,7 +21,7 @@
 ## Example
 
 ```ts
-import { M200UserPartners } from 'loyalty-sdk';
+import { M200UserPartners } from 'shell-loyalty-sdk';
 
 const m200UserPartners: M200UserPartners = {
   uuid: 'bb0dffbe‑95c8‑442f‑b15e‑53b8cf0a3d99',

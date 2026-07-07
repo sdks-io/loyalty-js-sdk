@@ -19,7 +19,7 @@
 ## Example
 
 ```ts
-import { PointsToCash } from 'loyalty-sdk';
+import { PointsToCash } from 'shell-loyalty-sdk';
 
 const pointsToCash: PointsToCash = {
   pointsRedeemed: 88.32,

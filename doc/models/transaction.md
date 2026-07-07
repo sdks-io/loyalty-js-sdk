@@ -44,7 +44,7 @@ import {
   Transaction,
   TransactionDetailType,
   UnitMeasure,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const transaction: Transaction = {
   transactionDateTime: BigInt(168),

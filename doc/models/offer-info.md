@@ -24,7 +24,7 @@
 ## Example
 
 ```ts
-import { OfferInfo } from 'loyalty-sdk';
+import { OfferInfo } from 'shell-loyalty-sdk';
 
 const offerInfo: OfferInfo = {
   discountValue: 14.12,

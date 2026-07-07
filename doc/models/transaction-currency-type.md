@@ -22,7 +22,7 @@ Type of balance
 ## Example
 
 ```ts
-import { TransactionCurrencyType } from 'loyalty-sdk';
+import { TransactionCurrencyType } from 'shell-loyalty-sdk';
 
 const transactionCurrencyType = TransactionCurrencyType.Miles;
 ```

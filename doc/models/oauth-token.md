@@ -21,7 +21,7 @@ OAuth 2 Authorization endpoint response
 ## Example
 
 ```ts
-import { OauthToken } from 'loyalty-sdk';
+import { OauthToken } from 'shell-loyalty-sdk';
 
 const oauthToken: OauthToken = {
   accessToken: 'access_token8',

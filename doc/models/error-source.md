@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { ErrorSource } from 'loyalty-sdk';
+import { ErrorSource } from 'shell-loyalty-sdk';
 
 const errorSource: ErrorSource = {
   pointer: 'pointer4',

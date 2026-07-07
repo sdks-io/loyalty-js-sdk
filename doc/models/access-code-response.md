@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { AccessCodeResponse } from 'loyalty-sdk';
+import { AccessCodeResponse } from 'shell-loyalty-sdk';
 
 const accessCodeResponse: AccessCodeResponse = {
   accessCode: 'AAAAAAAAAAAAA',

@@ -22,7 +22,7 @@
 ## Example
 
 ```ts
-import { ProductType, SaleItemProduct } from 'loyalty-sdk';
+import { ProductType, SaleItemProduct } from 'shell-loyalty-sdk';
 
 const saleItemProduct: SaleItemProduct = {
   id: '31AS2434',

@@ -21,7 +21,7 @@ OAuth 2 Authorization error codes
 ## Example
 
 ```ts
-import { OauthProviderError } from 'loyalty-sdk';
+import { OauthProviderError } from 'shell-loyalty-sdk';
 
 const oauthProviderError = OauthProviderError.UnsupportedGrantType;
 ```

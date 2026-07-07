@@ -16,7 +16,7 @@ An error response.
 ## Example
 
 ```ts
-import { NotFoundError } from 'loyalty-sdk';
+import { NotFoundError } from 'shell-loyalty-sdk';
 
 const notFoundError: NotFoundError = {
   fault: {

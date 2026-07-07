@@ -16,7 +16,7 @@
 ## Example
 
 ```ts
-import { TransactionTypeFilter } from 'loyalty-sdk';
+import { TransactionTypeFilter } from 'shell-loyalty-sdk';
 
 const transactionTypeFilter = TransactionTypeFilter.Earn;
 ```

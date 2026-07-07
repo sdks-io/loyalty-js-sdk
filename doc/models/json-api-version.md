@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { JsonApiVersion } from 'loyalty-sdk';
+import { JsonApiVersion } from 'shell-loyalty-sdk';
 
 const jsonApiVersion: JsonApiVersion = {
   version: 'version6',

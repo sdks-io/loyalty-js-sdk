@@ -20,7 +20,7 @@
 ## Example
 
 ```ts
-import { AuthTokenResponse } from 'loyalty-sdk';
+import { AuthTokenResponse } from 'shell-loyalty-sdk';
 
 const authTokenResponse: AuthTokenResponse = {
   token: 'AhshsisaahshsuewenJJJJNFFTA',

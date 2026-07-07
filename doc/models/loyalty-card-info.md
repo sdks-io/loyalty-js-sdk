@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { LoyaltyCardInfo } from 'loyalty-sdk';
+import { LoyaltyCardInfo } from 'shell-loyalty-sdk';
 
 const loyaltyCardInfo: LoyaltyCardInfo = {
   loyaltyCard: '1234567890123456789',

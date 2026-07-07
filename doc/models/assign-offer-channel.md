@@ -14,7 +14,7 @@
 ## Example
 
 ```ts
-import { AssignOfferChannel } from 'loyalty-sdk';
+import { AssignOfferChannel } from 'shell-loyalty-sdk';
 
 const assignOfferChannel = AssignOfferChannel.Partner;
 ```

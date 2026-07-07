@@ -21,7 +21,7 @@ Indicating the Type of the product (Fuel, CR, CC, PARTNER, OTHER, GREEN_ENERGY).
 ## Example
 
 ```ts
-import { ProductType } from 'loyalty-sdk';
+import { ProductType } from 'shell-loyalty-sdk';
 
 const productType = ProductType.Fuel;
 ```

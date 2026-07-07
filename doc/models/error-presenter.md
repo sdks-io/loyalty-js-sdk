@@ -22,7 +22,7 @@
 ## Example
 
 ```ts
-import { ErrorPresenter } from 'loyalty-sdk';
+import { ErrorPresenter } from 'shell-loyalty-sdk';
 
 const errorPresenter: ErrorPresenter = {
   appErrorCode: '1002',

@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { ExchangeAccessCodeRequest } from 'loyalty-sdk';
+import { ExchangeAccessCodeRequest } from 'shell-loyalty-sdk';
 
 const exchangeAccessCodeRequest: ExchangeAccessCodeRequest = {
   accessCode: 'AAAAAAAAAAAAA',

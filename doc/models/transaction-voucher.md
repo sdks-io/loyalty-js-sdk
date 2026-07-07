@@ -21,7 +21,7 @@
 ## Example
 
 ```ts
-import { TransactionDetailType, TransactionVoucher } from 'loyalty-sdk';
+import { TransactionDetailType, TransactionVoucher } from 'shell-loyalty-sdk';
 
 const transactionVoucher: TransactionVoucher = {
   detailType: TransactionDetailType.Redemption,

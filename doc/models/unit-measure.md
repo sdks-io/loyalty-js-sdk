@@ -18,7 +18,7 @@ Unit of measure
 ## Example
 
 ```ts
-import { UnitMeasure } from 'loyalty-sdk';
+import { UnitMeasure } from 'shell-loyalty-sdk';
 
 const unitMeasure = UnitMeasure.Kw;
 ```

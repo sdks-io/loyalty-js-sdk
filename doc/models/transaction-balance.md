@@ -22,7 +22,7 @@ import {
   TransactionBalance,
   TransactionBalanceState,
   TransactionCurrencyType,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const transactionBalance: TransactionBalance = {
   currencyType: TransactionCurrencyType.Airmiles,

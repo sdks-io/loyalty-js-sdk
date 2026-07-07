@@ -23,7 +23,7 @@ import {
   BalanceAmount,
   BalanceCurrencyType,
   BalanceState,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const balanceAmount: BalanceAmount = {
   amounts: [

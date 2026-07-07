@@ -24,7 +24,7 @@ State of the amount
 ## Example
 
 ```ts
-import { TransactionBalanceState } from 'loyalty-sdk';
+import { TransactionBalanceState } from 'shell-loyalty-sdk';
 
 const transactionBalanceState = TransactionBalanceState.Redeemed;
 ```

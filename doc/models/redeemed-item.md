@@ -34,7 +34,7 @@ import {
   ProductType,
   RedeemedItem,
   TransactionDetailType,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const redeemedItem: RedeemedItem = {
   amount: 172.08,

@@ -19,7 +19,7 @@
 ## Example
 
 ```ts
-import { RefreshTokenResponse } from 'loyalty-sdk';
+import { RefreshTokenResponse } from 'shell-loyalty-sdk';
 
 const refreshTokenResponse: RefreshTokenResponse = {
   accessToken: 'accessToken2',

@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { AuthTokenRequest } from 'loyalty-sdk';
+import { AuthTokenRequest } from 'shell-loyalty-sdk';
 
 const authTokenRequest: AuthTokenRequest = {
   digest: 'Aaaaaaaaaaaaaa',

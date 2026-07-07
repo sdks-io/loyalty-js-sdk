@@ -22,7 +22,7 @@
 ## Example
 
 ```ts
-import { Offer } from 'loyalty-sdk';
+import { Offer } from 'shell-loyalty-sdk';
 
 const offer: Offer = {
   offerId: BigInt(5231933),

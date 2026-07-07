@@ -20,7 +20,7 @@
 ## Example
 
 ```ts
-import { OfferLanguage } from 'loyalty-sdk';
+import { OfferLanguage } from 'shell-loyalty-sdk';
 
 const offerLanguage: OfferLanguage = {
   id: '31AS2434',

@@ -21,7 +21,7 @@ Indicates the Type of the transaction detail row (award, redemption, transfer, v
 ## Example
 
 ```ts
-import { TransactionDetailType } from 'loyalty-sdk';
+import { TransactionDetailType } from 'shell-loyalty-sdk';
 
 const transactionDetailType = TransactionDetailType.Transfer;
 ```

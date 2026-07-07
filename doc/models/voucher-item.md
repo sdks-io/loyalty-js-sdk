@@ -19,7 +19,7 @@
 ## Example
 
 ```ts
-import { VoucherItem } from 'loyalty-sdk';
+import { VoucherItem } from 'shell-loyalty-sdk';
 
 const voucherItem: VoucherItem = {
   code: 'test123',

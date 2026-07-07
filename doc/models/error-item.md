@@ -20,7 +20,7 @@
 ## Example
 
 ```ts
-import { ErrorItem } from 'loyalty-sdk';
+import { ErrorItem } from 'shell-loyalty-sdk';
 
 const errorItem: ErrorItem = {
   status: 222,

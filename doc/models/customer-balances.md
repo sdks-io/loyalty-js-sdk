@@ -21,7 +21,7 @@ import {
   BalanceCurrencyType,
   BalanceState,
   CustomerBalances,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const customerBalances: CustomerBalances = {
   balances: [

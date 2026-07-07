@@ -22,7 +22,7 @@ import {
   BalanceCurrencyAmount,
   BalanceCurrencyType,
   BalanceState,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const balanceCurrencyAmount: BalanceCurrencyAmount = {
   currencyType: BalanceCurrencyType.Point,

@@ -27,7 +27,7 @@ Documentation for accessing and setting credentials for client-authorization-tok
 You must initialize the client with *OAuth 2.0 Client Credentials Grant* credentials as shown in the following code snippet. This will fetch the OAuth token automatically when any of the endpoints, requiring *OAuth 2.0 Client Credentials Grant* authentication, are called.
 
 ```ts
-import { Client } from 'loyalty-sdk';
+import { Client } from 'shell-loyalty-sdk';
 
 const client = new Client({
   clientAuthorizationTokenCredentials: {
@@ -46,7 +46,7 @@ Your application can also manually provide an OAuthToken using the setter `oauth
 Whenever the OAuth Token gets updated, the provided callback implementation will be executed. For instance, you may use it to store your access token whenever it gets updated.
 
 ```ts
-import { Client, OauthToken } from 'loyalty-sdk';
+import { Client, OauthToken } from 'shell-loyalty-sdk';
 
 const client = new Client({
   clientAuthorizationTokenCredentials: {
@@ -70,7 +70,7 @@ import {
   Client,
   ClientAuthorizationTokenManager,
   OauthToken,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const client = new Client({
   clientAuthorizationTokenCredentials: {

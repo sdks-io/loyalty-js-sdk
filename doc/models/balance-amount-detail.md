@@ -23,7 +23,7 @@
 ## Example
 
 ```ts
-import { BalanceAmountDetail, BalanceState } from 'loyalty-sdk';
+import { BalanceAmountDetail, BalanceState } from 'shell-loyalty-sdk';
 
 const balanceAmountDetail: BalanceAmountDetail = {
   amount: 5,

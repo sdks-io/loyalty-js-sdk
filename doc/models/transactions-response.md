@@ -26,7 +26,7 @@ import {
   TransactionDetailType,
   TransactionsResponse,
   UnitMeasure,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const transactionsResponse: TransactionsResponse = {
   totalResults: 80,

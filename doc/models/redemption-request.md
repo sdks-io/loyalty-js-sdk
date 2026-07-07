@@ -19,7 +19,7 @@
 ## Example
 
 ```ts
-import { RedemptionRequest } from 'loyalty-sdk';
+import { RedemptionRequest } from 'shell-loyalty-sdk';
 
 const redemptionRequest: RedemptionRequest = {
   uuid: 'cee1157e-cac0-4fc6-b92b-68a13b456b43',

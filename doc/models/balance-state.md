@@ -26,7 +26,7 @@ State of the points balance amount.
 ## Example
 
 ```ts
-import { BalanceState } from 'loyalty-sdk';
+import { BalanceState } from 'shell-loyalty-sdk';
 
 const balanceState = BalanceState.Reserved;
 ```

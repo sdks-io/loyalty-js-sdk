@@ -39,7 +39,7 @@ import {
   SaleItem,
   TransactionDetailType,
   UnitMeasure,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const saleItem: SaleItem = {
   amount: 61.72,

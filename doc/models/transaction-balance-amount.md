@@ -21,7 +21,7 @@
 import {
   TransactionBalanceAmount,
   TransactionBalanceState,
-} from 'loyalty-sdk';
+} from 'shell-loyalty-sdk';
 
 const transactionBalanceAmount: TransactionBalanceAmount = {
   amount: 25.56,

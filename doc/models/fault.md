@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { Fault } from 'loyalty-sdk';
+import { Fault } from 'shell-loyalty-sdk';
 
 const fault: Fault = {
   faultstring: 'Bad Request',

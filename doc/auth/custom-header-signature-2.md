@@ -22,7 +22,7 @@ Documentation for accessing and setting credentials for customerHeader.
 You must provide credentials in the client as shown in the following code snippet.
 
 ```ts
-import { Client } from 'loyalty-sdk';
+import { Client } from 'shell-loyalty-sdk';
 
 const client = new Client({
   customerHeaderCredentials: {

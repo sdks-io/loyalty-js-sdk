@@ -16,7 +16,7 @@ Request is missing a parameter so the server cannot proceed with the request.
 ## Example
 
 ```ts
-import { BadRequestError } from 'loyalty-sdk';
+import { BadRequestError } from 'shell-loyalty-sdk';
 
 const badRequestError: BadRequestError = {
   fault: {

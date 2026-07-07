@@ -21,7 +21,7 @@
 ## Example
 
 ```ts
-import { BalanceCurrencyType } from 'loyalty-sdk';
+import { BalanceCurrencyType } from 'shell-loyalty-sdk';
 
 const balanceCurrencyType = BalanceCurrencyType.Qv;
 ```

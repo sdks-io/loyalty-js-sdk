@@ -22,7 +22,7 @@ currencyData is only filled, where there is possible non-same currency cross-bor
 ## Example
 
 ```ts
-import { CurrencyData } from 'loyalty-sdk';
+import { CurrencyData } from 'shell-loyalty-sdk';
 
 const currencyData: CurrencyData = {
   code: 'USD',

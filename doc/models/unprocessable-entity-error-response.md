@@ -19,7 +19,7 @@
 ## Example
 
 ```ts
-import { UnprocessableEntityErrorResponse } from 'loyalty-sdk';
+import { UnprocessableEntityErrorResponse } from 'shell-loyalty-sdk';
 
 const unprocessableEntityErrorResponse: UnprocessableEntityErrorResponse = {
   errorCode: 422,

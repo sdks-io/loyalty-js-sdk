@@ -16,7 +16,7 @@
 ## Example
 
 ```ts
-import { ClientAuthTokenRequest } from 'loyalty-sdk';
+import { ClientAuthTokenRequest } from 'shell-loyalty-sdk';
 
 const clientAuthTokenRequest: ClientAuthTokenRequest = {
   clientId: 'twuwywTYUHAH6AHHJ',

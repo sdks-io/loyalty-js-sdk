@@ -17,7 +17,7 @@
 ## Example
 
 ```ts
-import { FaultDetail } from 'loyalty-sdk';
+import { FaultDetail } from 'shell-loyalty-sdk';
 
 const faultDetail: FaultDetail = {
   errorcode: 'The request contains bad syntax or cannot be fulfilled.',

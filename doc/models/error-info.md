@@ -18,7 +18,7 @@
 ## Example
 
 ```ts
-import { ErrorInfo } from 'loyalty-sdk';
+import { ErrorInfo } from 'shell-loyalty-sdk';
 
 const errorInfo: ErrorInfo = {
   user: {

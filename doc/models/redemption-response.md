@@ -20,7 +20,7 @@
 ## Example
 
 ```ts
-import { RedemptionResponse } from 'loyalty-sdk';
+import { RedemptionResponse } from 'shell-loyalty-sdk';
 
 const redemptionResponse: RedemptionResponse = {
   referenceId: 'as3df5131fas3f54f92h5df',
